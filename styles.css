@@ -29,6 +29,23 @@ img:hover, button:hover {
     box-shadow: 0 0 5px 2px #3E54AC;
 }
 
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.navbar-text {
+    margin: 20px 30px;
+}
+
 /* a {
     text-decoration: none;
     color: red;
