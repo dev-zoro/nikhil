@@ -56,7 +56,25 @@ img:hover, button:hover {
     margin: 20px 30px;
 }
 
-/* a {
+.img-intro {
+    margin: 50px 180px 50px 265px;
+}
+
+.about-me {
+    width: 100px;
+}
+
+.opt-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options {
+    margin-right: 20px;
+}
+
+a {
     text-decoration: none;
-    color: red;
-} */
+    color: #66BFBF;
+}
