@@ -4,13 +4,13 @@ body {
     background-color: #EAF6F6;
 }
 
-hr { /* It is a type selector*/ 
+/* hr { /* It is a type selector
     border-style: none;
     border-top-style: dotted;
     border-width: 5px;
     border-color: white;
     width: 5%;
-}
+} */
 
 h1 {
     color: #66BFBF;
@@ -50,14 +50,24 @@ img:hover, button:hover {
 }
 
 .name {
+    color: #66BFBF;
     margin: 20px 30px;
+    cursor: pointer;
 }
 .navbar-text {
+    color: #66BFBF;
     margin: 20px 30px;
+    cursor: pointer;
+}
+
+.table-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-intro {
-    margin: 50px 180px 50px 265px;
+    margin: 50px 0;
 }
 
 .about-me {
@@ -71,7 +81,9 @@ img:hover, button:hover {
 }
 
 .options {
+    padding: 20px;
     margin-right: 20px;
+    /* background-color: lightgoldenrodyellow; */
 }
 
 a {
